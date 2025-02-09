@@ -7,4 +7,4 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:123@172.17.
 db.init_app(app)
 app.register_blueprint(product_blueprint)
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=4200)
+    app.run(debug=True, host='0.0.0.0', port=80)
